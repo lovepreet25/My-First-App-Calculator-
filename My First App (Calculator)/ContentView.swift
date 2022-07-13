@@ -24,7 +24,7 @@ enum CalButtons: String {
     case decimal = "."
     case equal = "="
     case clear = "Clear"
-      
+      // setting the colors for bottons
     var butColor: Color{
         switch self {
         case .add, .subtract, .multiply, .divide:
